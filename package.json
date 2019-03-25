@@ -11,6 +11,7 @@
     "start": "react-scripts start",
     "build:react": "react-scripts build",
     "build": "./scripts/build",
+    "deploy": "yarn build; ./scripts/deploy",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

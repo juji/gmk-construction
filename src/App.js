@@ -19,8 +19,6 @@ class App extends Component {
   }
 
   changeColor = (e) => {
-    e.preventDefault();
-    e.stopPropagation();
     const { selected, colors } = this.state;
     this.setState({
       selected: (selected + 1) >= colors.length ? 0 : selected+1
