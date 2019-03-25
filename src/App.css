@@ -1,0 +1,58 @@
+
+
+a{
+  color: white;
+  text-decoration:none;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover{
+  text-decoration:none;
+  border-bottom: 1px dotted #fff;
+}
+
+.App {
+  height:100%;
+  color: white;
+  padding: 55px;
+  font-size: 21px;
+}
+
+.App>img{
+  display: block;
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+.copy>p:first-child{
+  margin-top: 89px;
+  font-size: 27px;
+}
+
+.copy>p:nth-child(2){
+  margin-top: 42px;
+}
+
+
+@media only screen and (min-width: 777px) {
+  .App {
+    height:100%;
+    color: white;
+    padding: 89px;
+    font-size: 32px;
+  }
+
+  .App>img{
+    width: 500px;
+    margin-bottom: 89px;
+  }
+
+  .copy>p:first-child{
+    margin-top: 55px;
+    font-size: 34px;
+  }
+
+  .copy>p:nth-child(2){
+    margin-top: 42px;
+  }
+}
