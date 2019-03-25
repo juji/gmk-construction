@@ -1,0 +1,7 @@
+#!/bin/bash
+
+yarn build:react
+mv docs/CNAME ./CNAME
+rm -rf docs
+mv build docs
+mv ./CNAME docs/CNAME
